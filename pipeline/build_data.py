@@ -62,8 +62,8 @@ def process_task(task_args: dict):
 
 if __name__ == "__main__":
 
-    job_list_path = Path("./job_list.csv")
-    target_dir = Path("./pepdb")
+    job_list_path = Path("/home/aethercore/PepPCBench/job_list_updated.csv")
+    target_dir = Path("/home/aethercore/PepPCBench/pepdb")
     num_workers = 8
 
     df = pd.read_csv(job_list_path)

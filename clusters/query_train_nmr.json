@@ -74,25 +74,7 @@
             "service": "text",
             "parameters": {
               "attribute": "exptl.method",
-              "value": "X-RAY DIFFRACTION",
-              "operator": "exact_match"
-            }
-          },
-          {
-            "type": "terminal",
-            "service": "text",
-            "parameters": {
-              "attribute": "exptl.method",
               "value": "SOLUTION NMR",
-              "operator": "exact_match"
-            }
-          },
-          {
-            "type": "terminal",
-            "service": "text",
-            "parameters": {
-              "attribute": "exptl.method",
-              "value": "ELECTRON MICROSCOPY",
               "operator": "exact_match"
             }
           }
@@ -105,7 +87,7 @@
           "attribute": "rcsb_accession_info.initial_release_date",
           "operator": "less_or_equal",
           "negation": false,
-          "value": "2021-09-30"
+          "value": "2023-06-01"
         }
       }
     ]

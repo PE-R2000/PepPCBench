@@ -4,14 +4,14 @@ import shutil
 from tqdm import tqdm
 
 # Load the CSV file
-df = pd.read_csv("../job_list.csv")
+df = pd.read_csv("/home/aethercore/PepPCBench/job_list_updated.csv")
 
 # Create the output directory
-pdb_data_dir = Path("./pdb_test_data")
+pdb_data_dir = Path("/home/aethercore/Doutoramento/PepBench_dataset/pdb_test_data")
 pdb_data_dir.mkdir(exist_ok=True)
 
 # Define the source mmCIF directory
-mmcif_dir = Path("../pepdb")
+mmcif_dir = Path("/home/aethercore/PepPCBench/pepdb")
 
 # Define a function to get the cif file path by pdb_id
 def get_cif_by_job_name(job_name):
